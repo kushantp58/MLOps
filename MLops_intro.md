@@ -31,5 +31,5 @@
 
 ##### 8. Data management - Future data is collected and stored in a data lake or data warehouse for future use. This data is then used for retraining the model.
 
-#### MLOps Lifecycle 
-![MLOps Lifecycle](MLOps_Lifecycle.png)
+#### MLOps Lifecycle
+![MLOps Lifecycle](/assets/MLOps_lifecycle.jpg)
