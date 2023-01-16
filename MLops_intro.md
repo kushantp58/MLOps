@@ -31,4 +31,5 @@
 
 ##### 8. Data management - Future data is collected and stored in a data lake or data warehouse for future use. This data is then used for retraining the model.
 
-
+### MLOps Lifecycle Diagram
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Farchitect-and-build-the-full-machine-learning-lifecycle-with-amazon-sagemaker%2F&psig=AOvVaw0CdGVUX2JEkS5ISF3cRHKY&ust=1673943645428000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNjM0JTUy_wCFQAAAAAdAAAAABAr) 
