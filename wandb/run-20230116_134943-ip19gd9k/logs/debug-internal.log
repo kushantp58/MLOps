@@ -1,0 +1,830 @@
+2023-01-16 13:49:43,063 INFO    StreamThr :172314 [internal.py:wandb_internal():87] W&B internal server running at pid: 172314, started at: 2023-01-16 13:49:43.063300
+2023-01-16 13:49:43,064 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status
+2023-01-16 13:49:43,068 INFO    WriterThread:172314 [datastore.py:open_for_write():85] open: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/run-ip19gd9k.wandb
+2023-01-16 13:49:43,068 DEBUG   SenderThread:172314 [sender.py:send():334] send: header
+2023-01-16 13:49:43,099 DEBUG   SenderThread:172314 [sender.py:send():334] send: run
+2023-01-16 13:49:43,367 INFO    SenderThread:172314 [dir_watcher.py:__init__():216] watching files in: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files
+2023-01-16 13:49:43,368 INFO    SenderThread:172314 [sender.py:_start_run_threads():1065] run started: ip19gd9k with start time 1673905783.062275
+2023-01-16 13:49:43,368 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: summary_record
+2023-01-16 13:49:43,368 INFO    SenderThread:172314 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-16 13:49:43,369 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: check_version
+2023-01-16 13:49:43,370 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: check_version
+2023-01-16 13:49:43,450 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: run_start
+2023-01-16 13:49:43,454 DEBUG   HandlerThread:172314 [system_info.py:__init__():31] System info init
+2023-01-16 13:49:43,454 DEBUG   HandlerThread:172314 [system_info.py:__init__():46] System info init done
+2023-01-16 13:49:43,454 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 13:49:43,455 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 13:49:43,455 INFO    HandlerThread:172314 [system_monitor.py:probe():172] Collecting system info
+2023-01-16 13:49:43,455 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 13:49:43,455 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 13:49:43,456 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 13:49:43,456 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 13:49:43,456 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 13:49:43,499 DEBUG   HandlerThread:172314 [system_info.py:probe():195] Probing system
+2023-01-16 13:49:43,504 DEBUG   HandlerThread:172314 [system_info.py:_probe_git():180] Probing git
+2023-01-16 13:49:43,515 DEBUG   HandlerThread:172314 [system_info.py:_probe_git():188] Probing git done
+2023-01-16 13:49:43,515 DEBUG   HandlerThread:172314 [system_info.py:probe():241] Probing system done
+2023-01-16 13:49:43,516 DEBUG   HandlerThread:172314 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-56-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-01-16T21:49:43.499639', 'startedAt': '2023-01-16T21:49:43.056802', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Tutorial_1_EDA-jvsc-b774c95d-0a79-44e3-afae-cef0b022d3493f19c9a9-ed5f-49d6-adfe-59e68ac8fb78.ipynb', 'root': '/home/puget/Documents/kush_ws/MLOps', 'git': {'remote': 'git@github.com:kushantp58/MLOps.git', 'commit': '331a71ec93df3d6e04b9cff41c7c14f1d6bedc7b'}, 'email': None, 'host': 'puget-System-Product-Name', 'username': 'puget', 'executable': '/usr/bin/python3', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 557.52371875, 'min': 400.0, 'max': 5881.0}, 'cpu_freq_per_core': [{'current': 2974.362, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 509.62, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 619.24, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 454.81, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 619.24, 'min': 400.0, 'max': 5881.0}, {'current': 783.67, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 454.81, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 564.43, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 783.67, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}, {'current': 454.81, 'min': 400.0, 'max': 5881.0}, {'current': 509.62, 'min': 400.0, 'max': 5881.0}, {'current': 564.43, 'min': 400.0, 'max': 5881.0}, {'current': 728.86, 'min': 400.0, 'max': 5881.0}, {'current': 400.0, 'min': 400.0, 'max': 5881.0}], 'disk': {'total': 915.3232879638672, 'used': 85.94214248657227}, 'gpu': 'NVIDIA GeForce RTX 3090 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090 Ti', 'memory_total': 25757220864}], 'memory': {'total': 124.95611953735352}}
+2023-01-16 13:49:43,516 INFO    HandlerThread:172314 [system_monitor.py:probe():182] Finished collecting system info
+2023-01-16 13:49:43,516 INFO    HandlerThread:172314 [system_monitor.py:probe():185] Publishing system info
+2023-01-16 13:49:43,516 DEBUG   HandlerThread:172314 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-16 13:49:43,516 DEBUG   HandlerThread:172314 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-16 13:49:43,517 INFO    HandlerThread:172314 [system_monitor.py:probe():187] Finished publishing system info
+2023-01-16 13:49:43,521 DEBUG   SenderThread:172314 [sender.py:send():334] send: files
+2023-01-16 13:49:43,521 INFO    SenderThread:172314 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-01-16 13:49:43,528 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: stop_status
+2023-01-16 13:49:43,528 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: stop_status
+2023-01-16 13:49:43,530 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 13:49:43,531 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 13:49:43,531 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 13:49:43,531 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 13:49:43,531 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 13:49:43,531 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 13:49:43,532 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 13:49:43,532 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 13:49:43,564 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 13:49:43,564 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 13:49:43,564 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 13:49:43,719 DEBUG   SenderThread:172314 [sender.py:send():334] send: telemetry
+2023-01-16 13:49:43,720 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 13:49:44,009 INFO    Thread-16 :172314 [upload_job.py:push():143] Uploaded file /tmp/tmp5cg36x3xwandb/o6rq61ak-wandb-metadata.json
+2023-01-16 13:49:44,368 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_created():275] file/dir created: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/wandb-metadata.json
+2023-01-16 13:49:44,369 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_created():275] file/dir created: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/requirements.txt
+2023-01-16 13:49:44,369 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_created():275] file/dir created: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/wandb-summary.json
+2023-01-16 13:49:48,721 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:49:53,721 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:49:58,528 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:49:58,528 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:49:58,722 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:03,529 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:03,722 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:08,530 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:08,723 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:13,530 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:13,727 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:14,374 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/config.yaml
+2023-01-16 13:50:18,531 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:18,877 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:23,531 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:23,878 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:28,532 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:28,878 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:33,532 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:33,879 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:38,533 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:38,880 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:43,534 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:43,880 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:48,534 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:48,881 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:53,535 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:53,881 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:50:58,535 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:50:58,882 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:03,536 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:03,883 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:08,536 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:08,883 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:13,537 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:13,884 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:18,538 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:18,884 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:23,538 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:23,885 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:28,539 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:28,885 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:33,540 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:33,886 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:38,540 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:38,887 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:43,541 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:43,887 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:48,542 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:48,888 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:53,542 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:53,888 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:51:58,543 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:51:58,889 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:03,544 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:03,889 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:08,544 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:08,890 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:13,545 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:13,891 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:18,546 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:18,891 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:23,546 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:23,892 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:28,547 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:28,892 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:33,548 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:33,893 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:38,548 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:38,893 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:43,549 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:43,894 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:48,549 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:48,894 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:53,550 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:53,895 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:52:58,551 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:52:58,896 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:03,551 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:03,896 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:08,552 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:08,897 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:13,553 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:13,897 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:18,553 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:18,898 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:23,554 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:23,898 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:28,555 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:28,899 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:33,555 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:33,899 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:38,556 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:38,900 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:43,556 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:43,901 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:48,557 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:48,901 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:53,558 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:53,902 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:53:58,558 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:53:58,902 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:03,559 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:03,903 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:08,559 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:08,903 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:13,560 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:13,904 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:18,561 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:18,904 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:23,562 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:23,905 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:28,562 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:28,905 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:29,718 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 13:54:29,718 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 13:54:29,718 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 13:54:29,719 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 13:54:29,719 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 13:54:29,719 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 13:54:29,719 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 13:54:29,720 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 13:54:29,720 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 13:54:29,728 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 13:54:29,728 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 13:54:29,728 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 13:54:29,728 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 13:54:29,728 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 13:54:29,728 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 13:54:29,728 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 13:54:29,728 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 13:54:29,755 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 13:54:29,755 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 13:54:29,755 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 13:54:29,756 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 13:54:33,563 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:34,756 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:38,039 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 13:54:38,039 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 13:54:38,039 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 13:54:38,040 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 13:54:38,040 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 13:54:38,040 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 13:54:38,040 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 13:54:38,041 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 13:54:38,041 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 13:54:38,041 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 13:54:38,041 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 13:54:38,041 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 13:54:38,042 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 13:54:38,042 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 13:54:38,042 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 13:54:38,042 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 13:54:38,071 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 13:54:38,071 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 13:54:38,072 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 13:54:38,563 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:40,072 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:43,564 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:45,073 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:46,220 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 13:54:46,220 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 13:54:46,220 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 13:54:46,220 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 13:54:46,221 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 13:54:46,221 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 13:54:46,221 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 13:54:46,221 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 13:54:46,222 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 13:54:46,229 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 13:54:46,229 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 13:54:46,229 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 13:54:46,230 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 13:54:46,230 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 13:54:46,230 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 13:54:46,230 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 13:54:46,230 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 13:54:46,272 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 13:54:46,272 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 13:54:46,272 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 13:54:46,273 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 13:54:48,565 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:50,274 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:53,565 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:54:55,274 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:54:58,566 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:00,275 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:03,567 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:05,275 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:08,567 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:10,276 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:13,568 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:15,277 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:18,568 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:20,277 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:23,569 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:25,278 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:28,570 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:30,279 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:33,570 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:35,279 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:38,571 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:40,280 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:43,572 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:45,281 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:48,572 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:50,281 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:50,835 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 13:55:50,835 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 13:55:50,836 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 13:55:50,836 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 13:55:50,836 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 13:55:50,837 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 13:55:50,837 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 13:55:50,838 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 13:55:50,838 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 13:55:50,838 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 13:55:50,838 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 13:55:50,838 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 13:55:50,838 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 13:55:50,838 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 13:55:50,839 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 13:55:50,839 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 13:55:50,839 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 13:55:50,876 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 13:55:50,876 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 13:55:50,876 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 13:55:50,876 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 13:55:51,445 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_created():275] file/dir created: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/output.log
+2023-01-16 13:55:53,446 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/output.log
+2023-01-16 13:55:53,573 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:55:55,877 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:55:58,573 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:00,878 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:03,574 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:05,879 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:08,575 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:10,879 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:13,575 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:15,880 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:18,576 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:20,880 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:23,577 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:25,881 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:28,577 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:30,881 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:33,578 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:35,882 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:38,579 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:40,883 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:43,579 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:45,344 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 13:56:45,344 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 13:56:45,344 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 13:56:45,344 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 13:56:45,344 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 13:56:45,345 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 13:56:45,345 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 13:56:45,345 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 13:56:45,346 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 13:56:45,353 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 13:56:45,353 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 13:56:45,353 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 13:56:45,353 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 13:56:45,354 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 13:56:45,354 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 13:56:45,354 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 13:56:45,354 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 13:56:45,383 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 13:56:45,383 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 13:56:45,383 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 13:56:45,383 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 13:56:46,384 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:48,580 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:51,384 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:53,580 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:56:56,385 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:56:58,581 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:01,386 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:03,582 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:05,978 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 13:57:05,978 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 13:57:05,978 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 13:57:05,978 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 13:57:05,979 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 13:57:05,979 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 13:57:05,979 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 13:57:05,979 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 13:57:05,980 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 13:57:05,986 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 13:57:05,986 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 13:57:05,986 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 13:57:05,986 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 13:57:05,986 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 13:57:05,987 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 13:57:05,987 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 13:57:05,987 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 13:57:06,015 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 13:57:06,015 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 13:57:06,015 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 13:57:06,015 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 13:57:06,820 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 13:57:06,821 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 13:57:06,821 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 13:57:06,821 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 13:57:06,821 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 13:57:06,821 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 13:57:06,821 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 13:57:06,822 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 13:57:06,822 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 13:57:06,829 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 13:57:06,829 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 13:57:06,829 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 13:57:06,829 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 13:57:06,829 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 13:57:06,829 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 13:57:06,829 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 13:57:06,829 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 13:57:06,863 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 13:57:06,864 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 13:57:06,864 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 13:57:06,864 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 13:57:06,864 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:08,582 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:11,865 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:13,583 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:16,866 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:18,584 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:21,866 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:23,584 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:26,867 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:28,585 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:31,867 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:33,585 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:36,868 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:38,586 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:41,868 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:43,587 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:46,869 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:48,587 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:51,870 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:53,588 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:57:56,870 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:57:58,588 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:01,871 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:03,589 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:06,871 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:08,589 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:11,872 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:13,590 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:16,872 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:18,591 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:21,873 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:23,591 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:26,873 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:28,592 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:31,874 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:33,592 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:36,874 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:38,593 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:41,875 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:43,594 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:46,876 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:48,594 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:51,876 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:53,595 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:58:56,877 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:58:58,595 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:01,877 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:03,596 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:06,878 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:08,597 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:11,878 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:13,597 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:16,879 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:18,598 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:21,879 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:23,598 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:26,880 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:28,599 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:31,880 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:33,599 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:36,881 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:38,600 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:41,882 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:43,600 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:46,882 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:48,601 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:51,883 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:53,602 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 13:59:56,883 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 13:59:58,602 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:01,884 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:03,603 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:06,884 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:08,604 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:11,885 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:13,604 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:16,886 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:18,605 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:21,886 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:23,605 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:26,887 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:28,606 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:31,887 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:33,607 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:36,888 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:38,607 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:41,888 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:43,608 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:46,889 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:48,609 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:51,889 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:53,609 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:00:56,890 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:00:58,610 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:01,891 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:03,610 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:06,891 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:08,611 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:11,892 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:13,612 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:16,892 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:18,612 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:21,893 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:23,613 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:26,893 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:28,613 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:31,894 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:33,614 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:36,894 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:38,615 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:41,895 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:43,615 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:46,895 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:48,616 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:51,896 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:53,616 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:01:56,897 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:01:58,617 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:01,897 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:03,618 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:06,898 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:08,618 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:11,898 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:13,619 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:16,899 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:18,619 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:21,899 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:23,620 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:26,900 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:28,621 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:31,900 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:33,621 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:36,901 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:38,622 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:41,901 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:43,622 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:46,902 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:48,623 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:51,903 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:53,624 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:02:56,903 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:02:57,243 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 14:02:57,243 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 14:02:57,243 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 14:02:57,243 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 14:02:57,243 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 14:02:57,244 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 14:02:57,244 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 14:02:57,244 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 14:02:57,244 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 14:02:57,251 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 14:02:57,251 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 14:02:57,251 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 14:02:57,251 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 14:02:57,251 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 14:02:57,251 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 14:02:57,251 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 14:02:57,251 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 14:02:57,282 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 14:02:57,282 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 14:02:57,282 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 14:02:57,282 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 14:02:58,624 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:02,283 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:02,525 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 14:03:02,525 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 14:03:02,525 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 14:03:02,525 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 14:03:02,526 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 14:03:02,526 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 14:03:02,526 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 14:03:02,526 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 14:03:02,526 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 14:03:02,533 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 14:03:02,533 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 14:03:02,533 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 14:03:02,533 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 14:03:02,534 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 14:03:02,534 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 14:03:02,534 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 14:03:02,534 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 14:03:02,568 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 14:03:02,568 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 14:03:02,568 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 14:03:02,569 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 14:03:03,625 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:07,570 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:08,625 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:12,570 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:13,626 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:17,571 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:18,627 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:22,571 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:23,627 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:27,572 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:28,628 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:32,572 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:33,628 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:37,573 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:37,736 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 14:03:37,736 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 14:03:37,736 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 14:03:37,737 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 14:03:37,737 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 14:03:37,737 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 14:03:37,737 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 14:03:37,738 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 14:03:37,738 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 14:03:37,738 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 14:03:37,738 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 14:03:37,739 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 14:03:37,739 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 14:03:37,739 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 14:03:37,739 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 14:03:37,739 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 14:03:37,770 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 14:03:37,770 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 14:03:37,771 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 14:03:38,629 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:42,772 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:43,630 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:44,243 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 14:03:44,243 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 14:03:44,243 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 14:03:44,243 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 14:03:44,244 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 14:03:44,244 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 14:03:44,244 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 14:03:44,245 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 14:03:44,245 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 14:03:44,252 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 14:03:44,252 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 14:03:44,252 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 14:03:44,253 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 14:03:44,253 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 14:03:44,253 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 14:03:44,253 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 14:03:44,253 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 14:03:44,285 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 14:03:44,285 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 14:03:44,285 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 14:03:44,286 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 14:03:48,286 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:48,630 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:53,287 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:53,631 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:03:58,288 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:03:58,631 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:03,288 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:03,632 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:08,289 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:08,633 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:13,289 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:13,633 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:18,290 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:18,634 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:18,691 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 14:04:18,692 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 14:04:18,692 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 14:04:18,692 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 14:04:18,692 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 14:04:18,692 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 14:04:18,692 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 14:04:18,693 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 14:04:18,693 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 14:04:18,700 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: pause
+2023-01-16 14:04:18,700 INFO    HandlerThread:172314 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-01-16 14:04:18,700 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 14:04:18,700 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 14:04:18,700 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 14:04:18,700 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 14:04:18,701 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 14:04:18,701 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 14:04:18,735 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 14:04:18,735 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 14:04:18,735 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 14:04:18,735 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 14:04:23,635 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:23,736 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:28,635 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:28,737 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:33,636 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:33,737 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:38,636 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:38,738 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:43,637 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:43,738 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:48,638 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:48,739 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:53,638 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:53,739 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:04:58,639 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:04:58,740 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:03,639 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:03,740 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:08,640 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:08,741 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:13,641 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:13,741 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:18,641 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:18,742 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:23,642 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:23,742 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:28,642 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:28,743 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:33,643 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:33,743 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:38,644 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:38,744 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:43,644 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:43,744 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:48,645 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:48,745 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:53,645 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:53,746 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:05:58,646 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:05:58,746 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:06:03,647 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-16 14:06:03,747 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:06:06,256 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: resume
+2023-01-16 14:06:06,256 INFO    HandlerThread:172314 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-01-16 14:06:06,256 INFO    HandlerThread:172314 [system_monitor.py:start():151] Starting system monitor
+2023-01-16 14:06:06,257 INFO    SystemMonitor:172314 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-16 14:06:06,257 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started cpu
+2023-01-16 14:06:06,257 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started disk
+2023-01-16 14:06:06,257 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started gpu
+2023-01-16 14:06:06,258 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started memory
+2023-01-16 14:06:06,258 INFO    SystemMonitor:172314 [interfaces.py:start():168] Started network
+2023-01-16 14:06:06,266 DEBUG   SenderThread:172314 [sender.py:send():334] send: telemetry
+2023-01-16 14:06:06,267 DEBUG   SenderThread:172314 [sender.py:send():334] send: exit
+2023-01-16 14:06:06,267 INFO    SenderThread:172314 [sender.py:send_exit():557] handling exit code: 0
+2023-01-16 14:06:06,267 INFO    SenderThread:172314 [sender.py:send_exit():559] handling runtime: 0
+2023-01-16 14:06:06,268 INFO    SenderThread:172314 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-16 14:06:06,269 INFO    SenderThread:172314 [sender.py:send_exit():565] send defer
+2023-01-16 14:06:06,269 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:06,269 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 0
+2023-01-16 14:06:06,269 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:06,269 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-01-16 14:06:06,269 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 1
+2023-01-16 14:06:06,269 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:06,269 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 1
+2023-01-16 14:06:06,269 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:06,269 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-01-16 14:06:06,269 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 2
+2023-01-16 14:06:06,269 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:06,270 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 2
+2023-01-16 14:06:06,270 INFO    HandlerThread:172314 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-16 14:06:06,270 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-16 14:06:06,270 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined cpu
+2023-01-16 14:06:06,270 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-16 14:06:06,270 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined disk
+2023-01-16 14:06:06,270 DEBUG   SystemMonitor:172314 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-16 14:06:06,302 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined gpu
+2023-01-16 14:06:06,302 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined memory
+2023-01-16 14:06:06,302 INFO    HandlerThread:172314 [interfaces.py:finish():175] Joined network
+2023-01-16 14:06:06,303 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:06,303 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-01-16 14:06:06,303 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 3
+2023-01-16 14:06:06,303 DEBUG   SenderThread:172314 [sender.py:send():334] send: stats
+2023-01-16 14:06:06,303 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:06,303 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 3
+2023-01-16 14:06:06,303 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:06,303 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-01-16 14:06:06,303 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 4
+2023-01-16 14:06:06,303 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:06,303 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 4
+2023-01-16 14:06:06,304 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:06,304 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-01-16 14:06:06,304 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 5
+2023-01-16 14:06:06,304 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:06,304 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 5
+2023-01-16 14:06:06,304 DEBUG   SenderThread:172314 [sender.py:send():334] send: summary
+2023-01-16 14:06:06,304 INFO    SenderThread:172314 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-16 14:06:06,304 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:06,304 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-01-16 14:06:06,304 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 6
+2023-01-16 14:06:06,304 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:06,304 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 6
+2023-01-16 14:06:06,304 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:06,304 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-01-16 14:06:06,308 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: status_report
+2023-01-16 14:06:06,572 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 7
+2023-01-16 14:06:06,573 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:06,573 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 7
+2023-01-16 14:06:06,573 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:06,573 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-01-16 14:06:06,573 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/config.yaml
+2023-01-16 14:06:06,573 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/wandb-summary.json
+2023-01-16 14:06:07,268 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-16 14:06:07,478 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 8
+2023-01-16 14:06:07,478 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: poll_exit
+2023-01-16 14:06:07,478 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:07,479 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 8
+2023-01-16 14:06:07,479 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:07,479 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-01-16 14:06:07,479 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 9
+2023-01-16 14:06:07,479 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:07,479 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 9
+2023-01-16 14:06:07,479 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:07,480 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-01-16 14:06:07,480 INFO    SenderThread:172314 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-16 14:06:07,574 INFO    Thread-13 :172314 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/output.log
+2023-01-16 14:06:07,574 INFO    SenderThread:172314 [dir_watcher.py:finish():392] scan: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files
+2023-01-16 14:06:07,574 INFO    SenderThread:172314 [dir_watcher.py:finish():406] scan save: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/output.log output.log
+2023-01-16 14:06:07,574 INFO    SenderThread:172314 [dir_watcher.py:finish():406] scan save: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/requirements.txt requirements.txt
+2023-01-16 14:06:07,574 INFO    SenderThread:172314 [dir_watcher.py:finish():406] scan save: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/config.yaml config.yaml
+2023-01-16 14:06:07,574 INFO    SenderThread:172314 [dir_watcher.py:finish():406] scan save: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/wandb-metadata.json wandb-metadata.json
+2023-01-16 14:06:07,574 INFO    SenderThread:172314 [dir_watcher.py:finish():406] scan save: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/wandb-summary.json wandb-summary.json
+2023-01-16 14:06:07,577 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 10
+2023-01-16 14:06:07,577 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:07,579 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 10
+2023-01-16 14:06:07,579 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:07,579 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-01-16 14:06:07,580 INFO    SenderThread:172314 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-16 14:06:07,992 INFO    Thread-19 :172314 [upload_job.py:push():143] Uploaded file /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/config.yaml
+2023-01-16 14:06:07,993 INFO    Thread-17 :172314 [upload_job.py:push():143] Uploaded file /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/output.log
+2023-01-16 14:06:08,039 INFO    Thread-20 :172314 [upload_job.py:push():143] Uploaded file /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/wandb-summary.json
+2023-01-16 14:06:08,096 INFO    Thread-18 :172314 [upload_job.py:push():143] Uploaded file /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/files/requirements.txt
+2023-01-16 14:06:08,268 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-16 14:06:08,268 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: poll_exit
+2023-01-16 14:06:08,296 INFO    Thread-12 :172314 [sender.py:transition_state():585] send defer: 11
+2023-01-16 14:06:08,296 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:08,296 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 11
+2023-01-16 14:06:08,297 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:08,297 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-01-16 14:06:08,297 INFO    SenderThread:172314 [file_pusher.py:join():165] waiting for file pusher
+2023-01-16 14:06:08,297 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 12
+2023-01-16 14:06:08,297 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:08,297 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 12
+2023-01-16 14:06:08,297 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:08,297 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-01-16 14:06:08,584 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 13
+2023-01-16 14:06:08,584 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:08,584 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 13
+2023-01-16 14:06:08,584 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:08,585 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-01-16 14:06:08,585 INFO    SenderThread:172314 [sender.py:transition_state():585] send defer: 14
+2023-01-16 14:06:08,585 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: defer
+2023-01-16 14:06:08,585 INFO    HandlerThread:172314 [handler.py:handle_request_defer():170] handle defer: 14
+2023-01-16 14:06:08,585 DEBUG   SenderThread:172314 [sender.py:send():334] send: final
+2023-01-16 14:06:08,585 DEBUG   SenderThread:172314 [sender.py:send():334] send: footer
+2023-01-16 14:06:08,585 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: defer
+2023-01-16 14:06:08,585 INFO    SenderThread:172314 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-01-16 14:06:08,586 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-16 14:06:08,586 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: poll_exit
+2023-01-16 14:06:08,587 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: server_info
+2023-01-16 14:06:08,587 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: get_summary
+2023-01-16 14:06:08,587 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: sampled_history
+2023-01-16 14:06:08,587 DEBUG   SenderThread:172314 [sender.py:send_request():361] send_request: server_info
+2023-01-16 14:06:08,850 DEBUG   HandlerThread:172314 [handler.py:handle_request():144] handle_request: shutdown
+2023-01-16 14:06:08,850 INFO    HandlerThread:172314 [handler.py:finish():841] shutting down handler
+2023-01-16 14:06:09,587 INFO    WriterThread:172314 [datastore.py:close():299] close: /home/puget/Documents/kush_ws/MLOps/wandb/run-20230116_134943-ip19gd9k/run-ip19gd9k.wandb
+2023-01-16 14:06:09,849 INFO    SenderThread:172314 [sender.py:finish():1491] shutting down sender
+2023-01-16 14:06:09,849 INFO    SenderThread:172314 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-16 14:06:09,849 INFO    SenderThread:172314 [file_pusher.py:join():165] waiting for file pusher
